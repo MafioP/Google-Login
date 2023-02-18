@@ -1,0 +1,6 @@
+<asl-google-signin-button></asl-google-signin-button>
+
+<div *ngIf="loggedIn">
+  <h3>User is logged in!</h3>
+  <button type="button" (click)="logOut()">Log Out</button>
+</div>
